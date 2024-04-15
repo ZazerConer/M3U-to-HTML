@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M3U to HTML</title>
+  
+  <link rel="stylesheet" href="https://unpkg.com/video.js/dist/video-js.min.css">
+  <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/rubik?styles=19495,19491,19493,19488,19486">
+  <link rel="stylesheet" href="file/style.min.css">
+
+</head>
+<body>
+
+   <div id="preloader">
+     <div class="loader"></div>
+   </div>
+
+   <div class="container-playlist"></div>
+
+   <div id="player">
+     <button class="close-player"></button>
+     <video controls="true" id="video" class="vjs-color video-js" autoplay="false" preload="auto" poster="https://i.imgur.com/zlzQwXY.jpg"></video>
+   </div>
+
+   <script src="https://unpkg.com/video.js/dist/video.min.js"></script>
+   <script src="https://unpkg.com/@videojs/http-streaming@3.11.2/dist/videojs-http-streaming.min.js"></script>
+   <script src="https://unpkg.com/videojs-hls-quality-selector@2.0.0/dist/videojs-hls-quality-selector.min.js"></script>
+   <script src="file/script.min.js"></script>
+
+<script>
+  M3U_load("https://..");
+</script>
+
+</body>
+</html>
