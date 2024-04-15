@@ -22,7 +22,7 @@ http://video-stream-2.m3u8
 
 <br>
 
-**Load the URL file** > <a href="https://github.com/ZazerConer/M3U-to-HTML/blob/7cfc506fd15e09abf0f4921010ddd74bbdbcc9dc/dist/index.html#L33">html#L33</a>
+**Load the URL file** > <a href="https://github.com/ZazerConer/M3U-to-HTML/blob/7cfc506fd15e09abf0f4921010ddd74bbdbcc9dc/dist/index.html#L33">html#33</a>
 
 ```js
 M3U_load("http://file-playlist.m3u");
